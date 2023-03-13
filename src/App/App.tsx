@@ -10,7 +10,7 @@ function App() {
       <Box>
         <Navbar />
       </Box>
-      <Box width={'100%'}>
+      <Box>
         <Map />
       </Box>
     </Box>
