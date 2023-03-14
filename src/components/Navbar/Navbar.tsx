@@ -13,11 +13,10 @@ import {
 const Navbar = () => {
 
   return (
-    <Box 
+    <Box
+      position={'absolute'} 
       as={'nav'}
       w={'100%'}
-      css={{ backdropFilter: 'blur(10px)' }}
-      bg={useColorModeValue('#ffffff40', '#20202380')}
       zIndex={2}
     >
       <Container 

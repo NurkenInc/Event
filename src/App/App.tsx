@@ -10,8 +10,9 @@ function App() {
       <Box>
         <Navbar />
       </Box>
-      <Box>
+      <Box display={'flex'} flexDirection={'row'}>
         <Map />
+        <List />
       </Box>
     </Box>
   )
