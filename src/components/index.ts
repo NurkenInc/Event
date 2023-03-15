@@ -5,6 +5,10 @@ import Navbar from './Navbar/Navbar'
 import EventDetails from './EventDeatils/EventDeatils'
 import Map from './Map/Map'
 import List from './List/List'
+import CustomSidebar from './CustomSidebar/CustomSidebar'
+import SidebarHeader from './SidebarHeader/SidebarHeader'
+import Typography from './Typography/Typography'
+import Badge from './Badge/Badge'
 
 export {
   ThemeToggleButton,
@@ -13,5 +17,9 @@ export {
   Navbar,
   EventDetails,
   Map,
-  List
+  List,
+  CustomSidebar,
+  SidebarHeader,
+  Typography,
+  Badge
 }
