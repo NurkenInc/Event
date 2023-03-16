@@ -9,6 +9,8 @@ import CustomSidebar from './CustomSidebar/CustomSidebar'
 import SidebarHeader from './SidebarHeader/SidebarHeader'
 import Typography from './Typography/Typography'
 import Badge from './Badge/Badge'
+import SidebarFooter from './SidebarFooter/SidebarFooter'
+import Switch from './Switch/Switch'
 
 export {
   ThemeToggleButton,
@@ -21,5 +23,7 @@ export {
   CustomSidebar,
   SidebarHeader,
   Typography,
-  Badge
+  Badge,
+  SidebarFooter,
+  Switch
 }

@@ -6,7 +6,7 @@ interface SwitchProps extends React.InputHTMLAttributes<HTMLInputElement> {
   label?: string
 }
 
-export const Switch = ({ id, label, checked, ...rest } : SwitchProps) => {
+const Switch = ({ id, label, checked, ...rest } : SwitchProps) => {
   return (
     <CheckBoxWrapper>
       <CheckBox checked={checked}>
@@ -34,3 +34,5 @@ export const Switch = ({ id, label, checked, ...rest } : SwitchProps) => {
     </CheckBoxWrapper>
   )
 }
+
+export default Switch
