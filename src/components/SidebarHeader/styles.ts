@@ -25,8 +25,6 @@ export const StyledLogo = styled.div<{ rtl?: boolean }>`
   color: white;
   font-size: 24px;
   font-weight: 700;
-  background-color: #009fdb;
-  background: linear-gradient(45deg, rgb(21 87 205) 0%, rgb(90 225 255) 100%);
   ${({ rtl }) => 
     rtl 
       ? `

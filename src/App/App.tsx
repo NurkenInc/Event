@@ -6,13 +6,13 @@ import './App.css'
 
 function App() {
   return (
-    <Box w={'100vw'} h={'100vh'}>
-      <Box>
+    <Box w={'100vw'} h={'100vh'} display={'flex'} flexDirection={'row'}>
+      <Box w={'20vw'}>
         <CustomSidebar />
       </Box>
-      <Box display={'flex'} flexDirection={'row'}>
+      <Box w={'80vw'} display={'flex'} flexDirection={'row'}>
         <Map />
-        <List />
+        {/* <List /> */}
       </Box>
     </Box>
   )

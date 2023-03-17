@@ -11,6 +11,8 @@ import Typography from './Typography/Typography'
 import Badge from './Badge/Badge'
 import SidebarFooter from './SidebarFooter/SidebarFooter'
 import Switch from './Switch/Switch'
+import EventCard from './EventCard/EventCard'
+import EventCardList from './EventCardList/EventCardList'
 
 export {
   ThemeToggleButton,
@@ -25,5 +27,7 @@ export {
   Typography,
   Badge,
   SidebarFooter,
-  Switch
+  Switch,
+  EventCard,
+  EventCardList,
 }

@@ -12,7 +12,7 @@ const Map = () => {
   const position = [51.505, -0.09]
 
   return (
-    <Box width={'100vw'} height={'100vh'} zIndex={0} >
+    <Box width={'100%'} height={'100vh'} zIndex={0} >
       <MapContainer center={[position[0], position[1]]} zoom={13} scrollWheelZoom={false} style={{ width: '100%', height: '100%' }}>
         <TileLayer
           url="https://api.maptiler.com/maps/basic-v2/256/{z}/{x}/{y}.png?key=c26h5TAwECSsocmdzo5j"
