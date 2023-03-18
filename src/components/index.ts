@@ -13,6 +13,7 @@ import SidebarFooter from './SidebarFooter/SidebarFooter'
 import Switch from './Switch/Switch'
 import EventCard from './EventCard/EventCard'
 import EventCardList from './EventCardList/EventCardList'
+import SearchBar from './SearchBar/SearchBar'
 
 export {
   ThemeToggleButton,
@@ -30,4 +31,5 @@ export {
   Switch,
   EventCard,
   EventCardList,
+  SearchBar,
 }
