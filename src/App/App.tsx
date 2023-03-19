@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Box } from '@chakra-ui/react'
 import L from 'leaflet'
 
-import { SearchBar, Map, CustomSidebar } from '../components'
+import { SearchBar, Map, CustomSidebar, LocationButton } from '../components'
 
 import './App.css'
 
@@ -22,6 +22,9 @@ function App() {
         </Box>
         <Box id="map" w={'80vw'}>
           <Map selectPosition={selectPosition} />
+        </Box>
+        <Box position={'absolute'} zIndex={9999} bottom={'10px'} right={'20px'}>
+          <LocationButton setSelectPosition={setSelectPosition} />
         </Box>
       </Box>
     </Box>

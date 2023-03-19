@@ -142,7 +142,7 @@ const SearchBar = ({ setSelectPosition } : SearchBarProps) => {
                   alignItems={'center'}
                   h={'45px'}
             >
-              <Text>
+              <Text> 
                 Not Found
               </Text>
             </Button>)

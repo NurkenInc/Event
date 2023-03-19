@@ -14,6 +14,7 @@ import Switch from './Switch/Switch'
 import EventCard from './EventCard/EventCard'
 import EventCardList from './EventCardList/EventCardList'
 import SearchBar from './SearchBar/SearchBar'
+import LocationButton from './LocationButton/LocationButton'
 
 export {
   ThemeToggleButton,
@@ -32,4 +33,5 @@ export {
   EventCard,
   EventCardList,
   SearchBar,
+  LocationButton
 }
